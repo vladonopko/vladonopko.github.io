@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>bootstrap shit</title>
+
+			<!-- BOOTSTRAP CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">	
+
+<!-- BOOTSTRAP JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+<!-- OWN CSS -->
+		<link rel="stylesheet" href="css/style.css">
+
+<!-- SOURCED CSS -->
+		<link href="assets/css/minified.css.php" rel="stylesheet">
+		<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/backgrounds.css">
+
+ 	
+<!-- grab jquery from google cdn. fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+	</head>
+	<body class="bg-tactile">
+
+<!-- NAVIGATION TAB -->
+
+		 <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">V O</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profile.html">Profile</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Eco Box</a>
+            <a class="dropdown-item" href="#">Wing Up</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Uniwheel</a>
+            <a class="dropdown-item" href="#">Project42</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>		
+
+<!-- CONTACT FORM PHP -->
+
+<div class="container"></div>
+	<div class="row">
+		<div class="col-sm-4">
+			
+		</div>
+
+		<div class="col-sm-4">
+			<table></table>
+			<div class="containerinput">
+		  <form action="action_page.php">
+
+		    <label for="fname">First Name</label>
+		    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+		    <label for="lname">Last Name</label>
+		    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+		    <label for="comp">Company</label>
+		    <input type="text" id="comp" name="company" placeholder="Company">
+
+		    <label for="country">Topic</label>
+		    <select id="country" name="country">
+		      <option value="projectwork">Project work</option>
+		      <option value="ftempl">Employment</option>
+		      <option value="probono">Pro bono work</option>
+		      <option value="prevproj">Previous projects</option>
+		      <option value="otherie">Other...</option>
+		    </select>
+
+		    <label for="subject">Subject</label>
+		    <textarea id="subject" name="subject" placeholder="Please, note if you'd like to request any references" style="height:75px"></textarea>
+
+		    <input type="submit" value="Submit">
+
+		  	</form>
+			</div>
+
+			</div>
+		<div class="col-sm-4"></div>
+	</body>
+</html>
